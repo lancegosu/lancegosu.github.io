@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lance - About Me</title>
+    <style>
+        /* Styles for the about page can be similar to the home page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        #container {
+            max-width: 800px; /* Set a maximum width for the container */
+            margin: 0 auto; /* Center the container */
+            background-color: #fff; /* Set a background color for the container */
+            padding: 20px; /* Add padding to the container */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        #profile-image {
+            max-width: 30%; /* Ensure the image doesn't exceed its natural size */
+            margin-bottom: 20px; /* Add some space between the image and the section */
+            float: right; /* Float the image to the right */
+            margin-left: auto;
+            margin-right: 10%; /* Adjust the margin to move the image more to the middle */'
+        }
+
+        h2 {
+            color: #333;
+            font-size: 48px; /* Increase the font size for "About Me" */
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        nav {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="../home.html">Home</a>
+        <a href="../about/about.html">About</a>
+        <a href="../projects/projects.html">Projects</a>
+        <a href="learn.html">Learn</a>
+        <!-- Add more navigation links as needed -->
+    </nav>
+
+    <div id="container">
+        <section id="learn">
+            <h2>Educational content that has helped me in my journey:</h2>
+
+            <h3>CS50P</h3>
+            <p>
+                Harvard Online course that teaches the basics of Python.
+            </p>
+
+            <h3>Andrej Karpathy's zero to hero series on YouTube.</h3>
+            <p>
+                He walks you through on how to build a LLM and explains how it works under the hood.
+            </p>
+
+            <h3>Presentation on Fine-Tuning OpenAI's GPT</h3>
+            <p>
+                Colin Jarvis and Luv Kothari dive deep into the techniques on how to optimize GPTs to unlock enterprise use cases.
+            </p>
+        </section>
+    </div>
+</body>
+</html>
