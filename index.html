@@ -35,13 +35,42 @@
             text-align: center;
         }
 
-        nav a {
+        /* Group A styles */
+        .groupA {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .groupA a {
             margin-right: 10px;
             text-decoration: none;
             color: #333;
             font-weight: bold;
             display: inline-block;
         }
+
+        /* Group B styles */
+        .groupB {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: right;
+        }
+
+        .groupB a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+/*         nav a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            display: inline-block;
+        } */
     
         nav img {
             height: 20px;
@@ -51,16 +80,20 @@
 </head>
 <body>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about/about.html">About</a>
-        <a href="projects/projects.html">Projects</a>
-        <a href="resources/resources.html">Resources</a>
-        <a href="https://github.com/lancerai" target="_blank">
-            <img src="/images/github-icon.png" alt="GitHub">
-        </a>
-        <a href="https://www.linkedin.com/in/lancedin/" target="_blank">
-            <img src="/images/linkedin-icon.png" alt="LinkedIn">
-        </a>
+        <div class="groupA">
+            <a href="index.html">Home</a>
+            <a href="about/about.html">About</a>
+            <a href="projects/projects.html">Projects</a>
+            <a href="resources/resources.html">Resources</a>
+        </div>
+        <div class="groupB">
+            <a href="https://github.com/lancerai" target="_blank">
+                <img src="/images/github-icon.png" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/lancedin/" target="_blank">
+                <img src="/images/linkedin-icon.png" alt="LinkedIn">
+            </a>
+        </div>
     </nav>
 
     <div id="container">
