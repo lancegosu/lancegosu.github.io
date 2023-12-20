@@ -33,24 +33,28 @@
         nav {
             margin-bottom: 20px;
             text-align: center;
-            display: flex;
-            justify-content: space-between;
         }
 
-        .centered-links {
+        .icon-links {
             max-width: 800px;
-            display: flex;
-            justify-content: center;
+            margin: 0 auto;
+            text-align: right;
         }
 
-        .right-links {
+        .icon-links a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .page-links {
             max-width: 800px;
-            display: flex;
-            justify-content: flex-end;
-/*             align-items: center; */
+            margin: 0 auto;
         }
 
-        nav a {
+        .page-links a {
             margin-right: 10px;
             text-decoration: none;
             color: #333;
@@ -66,19 +70,19 @@
 </head>
 <body>
     <nav>
-        <div class="centered-links">
-            <a href="index.html">Home</a>
-            <a href="about/about.html">About</a>
-            <a href="projects/projects.html">Projects</a>
-            <a href="resources/resources.html">Resources</a>
-        </div>
-        <div class="right-links">
+        <div class="icon-links">
             <a href="https://github.com/lancerai" target="_blank">
                 <img src="/images/github-icon.png" alt="GitHub">
             </a>
             <a href="https://www.linkedin.com/in/lancedin/" target="_blank">
                 <img src="/images/linkedin-icon.png" alt="LinkedIn">
             </a>
+        </div>
+        <div class="page-links">
+            <a href="index.html">Home</a>
+            <a href="about/about.html">About</a>
+            <a href="projects/projects.html">Projects</a>
+            <a href="resources/resources.html">Resources</a>
         </div>
     </nav>
 
