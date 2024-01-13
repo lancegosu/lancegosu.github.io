@@ -22,6 +22,14 @@
             margin-bottom: 30px;
         }
 
+        #project-image {
+            max-width: 80%; /* Ensure the image doesn't exceed its natural size */
+            display: block;
+            margin: auto;
+            margin-bottom: 20px; /* Add some space between the image and the section */
+            text-align: center; /* Float the image to the right */
+        }
+
         h2 {
             color: #333;
         }
@@ -104,6 +112,7 @@
                 <li>
                     <a href="https://spoton.onrender.com/" target="_blank">SpotOn</a> is a Django web application that integrates OpenAI's GPT-3.5-turbo language model with the Google Places API. 
                         This fusion results in a sophisticated platform for place search and intelligent question-answering.
+                    <img id="project-image" src="../images/spoton.png" alt="">
                     <h3><b>Key Features:</b></h3>
                     <ul>
                         <li><b>Review-based Q&A:</b> Leverage place reviews to answer user queries using OpenAI's GPT-3.5-turbo language model.</li>
